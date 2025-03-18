@@ -4,8 +4,8 @@ import numpy as np
 class OutputProcessor:
     def __init__(self, board):
         self.board = board
-        self.cell_size = 80  # Size of each cell in pixels
-        self.margin = 40     # Margin around the board
+        self.cell_size = 80 
+        self.margin = 40
         self.queen_image = None
         self.load_queen_image()
         self.draw_grid()
@@ -13,7 +13,7 @@ class OutputProcessor:
     def load_queen_image(self):
         """Load and resize queen image, or create a text-based queen if image not found"""
         try:
-            self.queen_image = cv2.imread("queen.png", cv2.IMREAD_UNCHANGED)
+            self.queen_image = cv2.imread("./resources/queen.png", cv2.IMREAD_UNCHANGED)
             if self.queen_image is not None:
                 self.queen_image = cv2.resize(self.queen_image, (self.cell_size - 20, self.cell_size - 20))
         except:
