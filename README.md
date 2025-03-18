@@ -1,5 +1,5 @@
 # LinkedInQueenGame
-To solve LinkedIn Queen Problem using Computer Vision and Algorithms
+To solve LinkedIn Queen Problem using Computer Vision and Backtracking
 
 ## Problem Description
 The LinkedIn Queen Game is a puzzle where you need to place queens on a colored grid such that:
