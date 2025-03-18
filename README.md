@@ -9,9 +9,7 @@ The LinkedIn Queen Game is a puzzle where you need to place queens on a colored 
 <img src="resources/grid-today.png" width="400" alt="LinkedIn Queen Game Problem">
 
 ## Solution Visualization
-Here's how our solution looks:
-
-<img src="resources/solution-grid-today.png" width="400" alt="Solution Visualization">
+<img src="resources/grid-today-solution.png" width="400" alt="Solution Visualization">
 
 ## Prerequisites
 - Python 3.8 or higher
